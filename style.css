@@ -35,12 +35,16 @@ to{ height: 10em;}
     border: none;
     margin-left: 5px;
  }
+ .drop-down button:focus{ outline: none; }
 /* Drop down menu design end*/
 .about-us{
-background-color: #E7F1F2; height: 18em;color: #061011; display: flex;
-flex-direction:column;
+background-color: #E7F1F2; height: 23em;color: #061011; display: flex;
+flex-direction:column;   
   justify-content: center;  
 }
+.about-us img{position: fixed;top: 3em; display: block; }
+
+.test{ color: red;}
 .about-us h1{
     width: 80%;margin: auto;text-align: center;font-size: 0.8em;
 }
@@ -176,8 +180,13 @@ display: flex;width: 100%; justify-content: center;
 
   /*footer start*/
 footer div{ 
-    background-color: black;color: white;
+    background-color: #E7F1F2;color: rgb(0, 0, 0);
 }
+.general{font-size: 0.5em; height: 10em;margin-top: 2em;
+    display: flex;flex-direction: row;justify-content: space-around;
+}
+.vertical{  
+    }
   /*footer end*/
 
 
