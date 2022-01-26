@@ -35,7 +35,7 @@ to{ height: 10em;}
     border: none;
     margin-left: 5px;
  }
- .drop-down button:focus{ outline: none; }
+ .mobile-menu button:focus{ outline: none !important; }
 /* Drop down menu design end*/
 .about-us{
 background-color: #E7F1F2; height: 23em;color: #061011; display: flex;
