@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  }
+body{background-color: white;}
+.nav-bar .not-mobile{display: none; }
+.nav-bar {
+background-color: #E7F1F2;
+display: flex; flex-direction: row;justify-content: space-around;margin-top: 0.5rem; }
+.nav-bar div{ display: flex; flex-direction: column;justify-content: center;}
+.mobile-menu button{border: none;background-color: inherit;}
+.mobile-menu img{ background-color:rgba(255, 255, 255, 0) ; width: 2rem; }
+.logo-name{background-color: rgba(0, 0, 0, 0);}
+.logo-name img{width: 2.7rem;background-color: rgba(255, 0, 0, 0); }
+.mobile-menu{ }
+
+
+/* Drop down menu design*/
+.drop-down{ display: none;
+   background-color:#ffffff;
+    width: 100%;flex-direction: column;border: solid;justify-content: space-around;
+    ;text-align: left;
+   overflow: hidden; position: absolute;
+}
+@keyframes bajada{
+from{height: 0px;}
+to{ height: 10em;}
+}
+
+.drop-down button {
+    color: rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255, 0);
+    border: none;
+    margin-left: 5px;
+ }
+/* Drop down menu design end*/
+.about-us{
+background-color: #E7F1F2; height: 13em;color: #061011; display: flex;
+flex-direction:column;
+  justify-content: center;  
+}
+.about-us h1{
+    width: 80%;margin: auto;text-align: center;font-size: 0.5em;
+}
+.about-us h1 span{ color: #12A952;font-weight: bolder ;}
+.about-us h2{
+color: white;
+    width: 80%;margin: auto;text-align: center;font-size: 1em;}
+
+
+
+/* product solap*/
+.inter-text{font-size: 12px;font-weight: bold; text-align: left;
+margin-bottom: 25px;margin-top: 25px;}
+.inter-text span{color: #12A952;font-size: 13px; }
+.producto img{ width: 2em;}
+.productos{display: grid;grid-template-rows: repeat(2,1fr);
+    grid-template-columns:repeat(2,1fr);
+    height: 15em;
+}
+.producto{border: rgb(255, 255, 255) thin solid; width: 4em;margin: auto;padding: 15px;
+    display: flex; justify-content: center;
+}
+.outerDiv{
+    display: flex;
+    background-color:#E7F1F2 ;width:5em ;height: 5em;margin: auto;margin-top: 10px;}
+
+.productos p {text-align: center;font-size: 10px;font-weight: bold;}
+.productos h4{ font-size: 9px;text-align: center;font-weight: lighter;}
+
+
+
+
+
+
+
+
+
+/* contacto*/
+.wrapper{margin-top: 100px;border: black solid;
+display: flex;width: 100%; justify-content: center;
+}
+.contacto p { text-align: center;}
+.wrapper {
+    display: inline-flex;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+  }
+  
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+  }
+  
+
+
+
+
+
+ @media only screen and (min-width: 600px) {
+     .drop-down{display: none;}
+     .nav-bar .mobile-menu{display: none;}
+    .nav-bar .not-mobile{ display: initial;}
+    .nav-bar{
+        display: flex;flex-direction: row;justify-content: space-between;
+     }
+     
+    
+    .nav-bar div {display: flex; flex-direction: column;justify-content: center; }
+    .logo-name div{display: flex;flex-direction: row;}
+   .logo-name div p { display: flex; flex-direction: column;justify-content: center;}
+    }
