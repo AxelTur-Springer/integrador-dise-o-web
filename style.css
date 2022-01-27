@@ -60,7 +60,7 @@ color: white;
 
 
 /* product solap*/
-.inter-text{width: 80%; margin: auto;font-size: 1em;font-weight: bold; text-align: left;
+.inter-text{width: 80%; margin: auto;font-size: 1em;font-weight: bold; text-align: center;
 margin-bottom: 25px;margin-top: 2em; }
 .inter-text span{color: #12A952;font-size: 1.3em; }
 .producto img{ width: 2.5em;}
@@ -87,155 +87,187 @@ margin-bottom: 25px;margin-top: 2em; }
 
 
 /* contacto*/
-.wrapper{margin-top: 100px;border: black solid;
-display: flex;width: 100%; justify-content: center;
-}
-.footer{ margin-top: 5em;}
-.footer p { text-align: center;}
-.wrapper {
-    display: inline-flex;
-  }
-  
-  .wrapper .icon {
-    position: relative;
-    background-color: #ffffff;
-    border-radius: 50%;
-    padding: 15px;
-    margin: 10px;
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip {
-    position: absolute;
-    top: 0;
-    font-size: 14px;
-    background-color: #ffffff;
-    color: #ffffff;
-    padding: 5px 8px;
-    border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .tooltip::before {
-    position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    background-color: #ffffff;
-    bottom: -3px;
-    left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  
-  .wrapper .icon:hover .tooltip {
-    top: -45px;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-  
-  .wrapper .icon:hover span,
-  .wrapper .icon:hover .tooltip {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-  }
-  
- 
-  .wrapper .twitter:hover,
-  .wrapper .twitter:hover .tooltip,
-  .wrapper .twitter:hover .tooltip::before {
-    background-color: #46c1f6;
-    color: #ffffff;
-  }
-  
-  .wrapper .instagram:hover,
-  .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
-    background-color: #e1306c;
-    color: #ffffff;
-  }
-  
-  .wrapper .github:hover,
-  .wrapper .github:hover .tooltip,
-  .wrapper .github:hover .tooltip::before {
-    background-color: #333333;
-    color: #ffffff;
-  }
-  
-  .wrapper .youtube:hover,
-  .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip::before {
-    background-color: #de463b;
-    color: #ffffff;
-  }
-  
+
 
 
 /*contact info start*/
 
 /*contact info end*/
-
+.contact{ background-image: url(/assets/alien\ contact\ back.png);
+background-size: 5em;background-repeat: no-repeat;
+background-position-x: -20px;
+}
 .contact p{ text-align: center;
 margin-top: 5em;margin-bottom: 2em;}
 .contact p span{color:#12A952 ; font-size: large; } 
-.colum-flex{ 
-   display: flex;flex-direction: row;
+
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.contact-form{ 
-    display: flex;flex-direction: row;justify-content: right;
-    background-color: rgb(255, 255, 255); 
-    width: 100%; border: solid green;
-    background-position-x:-80px ;background-size: 15em;background-repeat: no-repeat;
-    background-image: url(/assets/alien\ contact\ back.png); 
+li {
+    padding: 0.3em;
 }
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #12A952;
-  border-radius: 4px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-
+span {
+    font-weight: 700;
+    color: #102a43;
+    line-height: 35px;
+    line-height: 2.5rem;
+    font-size: 12px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
-
-input[type=submit] {
-  background-color: #12A952;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #0b6832;
+input[type="submit"] {
+    background: #12A952;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 1.3em;
 }
 
 .container {
-  border-radius: 5px;
-  background-color: #a1000000;
-  padding: 20px; width: 15em;
-  border: solid red;
+    width: 90%;
+    margin: 5em auto;
+}
+form {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
 }
 
-  /*footer start*/
+.required-star {
+    color: #12A952;
+}
 
-  /*footer end*/
+input,
+textarea {
+    width: 100%;
+    padding: 9px 20px;
+    border: 1px solid #e1e2eb;
+    background-color: #fff;
+    color: #102a43;
+    caret-color: #829ab1;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 29px;
+    line-height: 2rem;
+    box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+    border-radius: 3px;
+    line-height: 29px;
+    line-height: 2rem;
+}
 
+/* footer start*/
+.wrapper{
+    display: flex;width: 100%; justify-content: center;
+    }
+    .footer{background-color:#E7F1F2;
+        }
+    .footer p { text-align: center; color: rgb(29, 29, 29);}
+
+      .wrapper .icon {
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 50%;
+        padding: 15px;
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      
+      .wrapper .tooltip {
+        position: absolute;
+        top: 0;
+        font-size: 14px;
+        background-color: #ffffff;
+        color: #ffffff;
+        padding: 5px 8px;
+        border-radius: 5px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      
+      .wrapper .tooltip::before {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        background-color: #ffffff;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%) rotate(45deg);
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      
+      .wrapper .icon:hover .tooltip {
+        top: -45px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+      }
+      
+      .wrapper .icon:hover span,
+      .wrapper .icon:hover .tooltip {
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+      }
+      
+     
+      .wrapper .twitter:hover,
+      .wrapper .twitter:hover .tooltip,
+      .wrapper .twitter:hover .tooltip::before {
+        background-color: #46c1f6;
+        color: #ffffff;
+      }
+      
+      .wrapper .instagram:hover,
+      .wrapper .instagram:hover .tooltip,
+      .wrapper .instagram:hover .tooltip::before {
+        background-color: #e1306c;
+        color: #ffffff;
+      }
+      
+      .wrapper .github:hover,
+      .wrapper .github:hover .tooltip,
+      .wrapper .github:hover .tooltip::before {
+        background-color: #333333;
+        color: #ffffff;
+      }
+      
+      .wrapper .youtube:hover,
+      .wrapper .youtube:hover .tooltip,
+      .wrapper .youtube:hover .tooltip::before {
+        background-color: #de463b;
+        color: #ffffff;
+      }
+      
+
+/* footer end*/
 
 
  @media only screen and (min-width: 600px) {
