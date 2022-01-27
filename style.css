@@ -195,7 +195,7 @@ margin-top: 5em;margin-bottom: 2em;}
 }
 
 .contact-form{ 
-    display: flex;flex-direction: row;justify-content: right;
+    display: flex;flex-direction: row;justify-content: left;
     background-color: rgb(255, 255, 255); 
     width: 100%;
     background-position-x:-80px ;background-size: 15em;background-repeat: no-repeat;
@@ -229,6 +229,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #a1000000;
   padding: 20px; width: 15em;
+  border: solid red;
 }
 
   /*footer start*/
