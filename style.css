@@ -17,6 +17,7 @@ display: flex; flex-direction: row;justify-content: space-around
 .logo-name img{width: 2.7rem;background-color: rgba(255, 0, 0, 0); }
 .brand span{color:#12A952 ;}
 .brand{ font-size: 1.5em;}
+button:hover{cursor: pointer; }
 
 
 /* Drop down menu design*/
@@ -89,7 +90,8 @@ margin-bottom: 25px;margin-top: 2em; }
 .wrapper{margin-top: 100px;border: black solid;
 display: flex;width: 100%; justify-content: center;
 }
-.contacto p { text-align: center;}
+.footer{ margin-top: 5em;}
+.footer p { text-align: center;}
 .wrapper {
     display: inline-flex;
   }
@@ -181,15 +183,56 @@ display: flex;width: 100%; justify-content: center;
   
 
 
+/*contact info start*/
+
+/*contact info end*/
+
+.contact p{ text-align: center;
+margin-top: 5em;margin-bottom: 2em;}
+.contact p span{color:#12A952 ; font-size: large; } 
+.colum-flex{ 
+   display: flex;flex-direction: row;
+}
+
+.contact-form{ 
+    display: flex;flex-direction: row;justify-content: right;
+    background-color: rgb(255, 255, 255); 
+    width: 100%;
+    background-position-x:-80px ;background-size: 15em;background-repeat: no-repeat;
+    background-image: url(/assets/alien\ contact\ back.png); 
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #12A952;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+
+}
+
+input[type=submit] {
+  background-color: #12A952;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0b6832;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #a1000000;
+  padding: 20px; width: 15em;
+}
+
   /*footer start*/
-footer div{ 
-    background-color: #E7F1F2;color: rgb(0, 0, 0);
-}
-.general{font-size: 0.5em; height: 10em;margin-top: 2em;
-    display: flex;flex-direction: row;justify-content: space-around;
-}
-.vertical{  
-    }
+
   /*footer end*/
 
 
