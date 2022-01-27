@@ -195,7 +195,7 @@ margin-top: 5em;margin-bottom: 2em;}
 }
 
 .contact-form{ 
-    display: flex;flex-direction: row;justify-content: left;
+    display: flex;flex-direction: row;justify-content: right;
     background-color: rgb(255, 255, 255); 
     width: 100%;
     background-position-x:-80px ;background-size: 15em;background-repeat: no-repeat;
