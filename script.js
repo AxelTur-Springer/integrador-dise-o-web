@@ -14,7 +14,7 @@ function myFunction() {
 }
 
 
-const navbar = document.querySelector('.nav-bar');
+const navbar = document.querySelector('.nav-pc');
 window.onscroll = () => {
     if (window.scrollY > 0) {
         navbar.classList.add('nav-active');

@@ -8,12 +8,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <title>Algoo</title>
+    <title>Alien Vault</title>
 </head>
 <body>
     <nav>
+        <div class="nav-pc" id="navbar">
+            <div class="logo-brand">
+                <div>
+                    <img src="/assets/logo.png" alt="">   
+                    <p>A<span>l</span>i<span>e</span>n</p>
+                </div>
+            </div>
+            <div class="flex-column">
+                <div class="flex2">
+                    <div class="not-mobile">
+                        <a href="#sobrenos"><button>Home</button></a>
+                    </div>
+                  
+                     <div class="not-mobile">
+                        <a href="#produ"><button>Productos</button></a>
+                    </div>
+                    <div class="not-mobile">
+                        <a href="#contact"><button>Contacto</button></a>
+                    </div>
+                    <div class="not-mobile">
+                        <a href="/loginregister/index.html"><button>Login</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         
-        <div class="nav-bar" id="navbar">
+        <div class="nav-bar" >
             <div class="mobile-menu">
                 <button id="dropdownbutton" onclick="myFunction()"><img src="/assets/icons8-menu.svg" alt=""></button>
             </div>
@@ -27,27 +52,16 @@
                 <p>A<span>l</span>i<span>e</span>n</p>
             </div>
             
-            <div class="not-mobile">
-                <a href=""><button>Home</button></a>
-            </div>
-            <div class="not-mobile">
-                <a href=""><button>Sobre Nosotros</button></a>
-            </div>
-            <div class="not-mobile">
-                <a href=""><button>Productos</button></a>
-            </div>
-            <div class="not-mobile">
-                <a href=""><button>Contacto</button></a>
-            </div>
+          
 
         </div>
         
         <div id="dropDown-menu" class="drop-down">
             <div>
-                <a href=""><button>Login</button></a>
+                <a href="/loginregister/index.html"><button>Login</button></a>
             </div>
             <div>
-                <a href="#sobrenos"><button>Sobre Nosotros</button></a>
+                <a href="#sobrenos"><button>Home</button></a>
             </div>
             <div>
                 <a href="#produ"><button>Productos</button></a>
