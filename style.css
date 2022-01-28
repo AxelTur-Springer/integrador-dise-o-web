@@ -30,7 +30,7 @@ button:hover{cursor: pointer; }
 }
 @keyframes bajada{
 from{height: 0px;}
-to{ height: 10em;}
+to{ height: 13em;}
 }
 
 
