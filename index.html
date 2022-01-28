@@ -12,7 +12,8 @@
 </head>
 <body>
     <nav>
-        <div class="nav-bar">
+        
+        <div class="nav-bar" id="navbar">
             <div class="mobile-menu">
                 <button id="dropdownbutton" onclick="myFunction()"><img src="/assets/icons8-menu.svg" alt=""></button>
             </div>
@@ -40,18 +41,19 @@
             </div>
 
         </div>
+        
         <div id="dropDown-menu" class="drop-down">
             <div>
                 <a href=""><button>Login</button></a>
             </div>
             <div>
-                <a href=""><button>Sobre Nosotros</button></a>
+                <a href="#sobrenos"><button>Sobre Nosotros</button></a>
             </div>
             <div>
-                <a href=""><button>Productos</button></a>
+                <a href="#produ"><button>Productos</button></a>
             </div>
             <div>
-                <a href=""><button>Contacto</button></a>
+                <a href="#contact"><button>Contacto</button></a>
             </div>
          </div>
     </nav>
@@ -59,7 +61,7 @@
 
 
     <main>
-        <div class="about-us"  id="prueba">
+        <div class="about-us"  id="sobrenos">
             <img src="/assets/alien.png" alt="" width="20px" id="algo">
             <h2>Alguna frase </h2>
             <h1>Lorem ipsum dolor sit amet <span>consectetur</span> consectetur 
@@ -72,7 +74,7 @@
         <div class="inter-text">
             <p>Lorem ipsum dolor sit amet <span>consectetur</span>  adipisicing <span>elit.</span>  Quam dolores sit magni placeat.</p>
         </div>
-        <div class="productos">
+        <div class="productos" id="produ">
             <div><div class="outerDiv"><div class="producto 1"><img src="/assets/layers.png" alt=""></div></div><p>Product Informaction</p> <h4>details</h4></div>
             <div><div class="outerDiv"><div class="producto 2"> <img src="/assets/loop.png" alt=""></div></div><p>Product Informaction</p><h4>details</h4></div>
             <div><div class="outerDiv"><div class="producto 3"><img src="/assets/meter.png" alt=""></div></div><p>Product Informaction</p><h4>details</h4></div>
@@ -82,7 +84,7 @@
 
         </div>
         
-        <div class=contact>
+        <div class=contact id="contact">
             <div>
                 <p>Canal de <span>Consulta</span></p> 
             </div>
@@ -91,15 +93,15 @@
                          <form>
                              <ul>
                                 <li>
-                                    <label for="name"><span>Name <span class="required-star">*</span></span></label>
+                                    <label for="name"><span>Nombre Completo<span class="required-star">*</span></span></label>
                                     <input type="text" id="name" name="user_name">
                                 </li>
                                 <li>
-                                     <label for="mail"><span>Email <span class="required-star">*</span></span></label>
+                                     <label for="mail"><span>Correo<span class="required-star">*</span></span></label>
                                      <input type="email" id="mail" name="user_email">
                                 </li>
                                 <li>
-                                    <label for="msg"><span>Message</span></label>
+                                    <label for="msg"><span>Mensaje</span></label>
                                     <textarea rows="4" cols="50"></textarea>
                                 </li>
                                 <li>

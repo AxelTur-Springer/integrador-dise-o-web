@@ -9,12 +9,13 @@ body{background-color: white;}
 .nav-bar {
 background-color: #E7F1F2;
 display: flex; flex-direction: row;justify-content: space-around
-;}
+;height: 3.5em;}
+
 .nav-bar div{ display: flex; flex-direction: column;justify-content: center;}
 .mobile-menu button{border: none;background-color: inherit;}
 .mobile-menu img{ background-color:rgba(255, 255, 255, 0) ; width: 2rem; }
 .logo-name{background-color: rgba(0, 0, 0, 0);}
-.logo-name img{width: 2.7rem;background-color: rgba(255, 0, 0, 0); }
+.logo-name img{width: 2.9rem;background-color: rgba(255, 0, 0, 0); }
 .brand span{color:#12A952 ;}
 .brand{ font-size: 1.5em;}
 button:hover{cursor: pointer; }
@@ -41,58 +42,60 @@ to{ height: 10em;}
  }
  button:focus{ outline: none ; }
 /* Drop down menu design end*/
+
 .about-us{
-background-color: #E7F1F2; height: 23em;color: #061011; display: flex;
-flex-direction:column;   
-  justify-content: center;  
+background-color: #E7F1F2; height: 23em;color: #061011;
+display: flex;flex-direction:column; justify-content: center; 
 }
+
 .about-us img{position: fixed;top: 3em; display: block; }
 
 .test{ color: red;}
+
 .about-us h1{
-    width: 80%;margin: auto;text-align: center;font-size: 0.8em;
+width: 80%;margin: auto;text-align: center;font-size: 0.8em;
 }
+
 .about-us h1 span{ color: #12A952;font-weight: bolder ; font-size: 0.9em;}
+
 .about-us h2{
 color: white;
-    width: 80%;margin: auto;text-align: center;font-size: 2em;}
-
-
+width: 80%;margin: auto;text-align: center;font-size: 2em;}
 
 /* product solap*/
+
 .inter-text{width: 80%; margin: auto;font-size: 1em;font-weight: bold; text-align: center;
 margin-bottom: 25px;margin-top: 2em; }
+
 .inter-text span{color: #12A952;font-size: 1.3em; }
+
 .producto img{ width: 2.5em;}
-.productos{display: grid;grid-template-rows: repeat(2,1fr);
-    grid-template-columns:repeat(2,1fr);
-    height: 25em;margin-top: 5em;
+
+.productos{display: grid;
+ grid-template-columns:repeat(2,1fr);grid-template-rows: repeat(2,1fr);
+ height: 25em;margin-top: 5em;
 }
-.producto{border: rgb(255, 255, 255) thin solid; width: 5em;margin: auto;padding: 15px;
+
+.producto{
     display: flex; justify-content: center;
+    border: rgb(255, 255, 255) thin solid; width: 5em;margin: auto;padding: 15px;
 }
+
 .outerDiv{
-    display: flex;
-    background-color:#E7F1F2 ;width:8em ;height: 8em;margin: auto;margin-top: 10px;}
+    display: flex;background-color:#E7F1F2 
+    ;width:8em ;height: 8em;margin: auto;margin-top: 10px;}
 
 .productos p {text-align: center;font-size: 10px;font-weight: bold;}
 .productos h4{ font-size: 9px;text-align: center;font-weight: lighter;}
 
 
 
-
-
-
-
-
-
-/* contacto*/
+/* product solap end*/
 
 
 
 /*contact info start*/
 
-/*contact info end*/
 .contact{ background-image: url(/assets/alien\ contact\ back.png);
 background-size: 5em;background-repeat: no-repeat;
 background-position-x: -20px;
@@ -172,16 +175,18 @@ textarea {
     line-height: 29px;
     line-height: 2rem;
 }
+/*contact info end*/
+
 
 /* footer start*/
 .wrapper{
     display: flex;width: 100%; justify-content: center;
     }
-    .footer{background-color:#E7F1F2;
+.footer{background-color:#E7F1F2;
         }
-    .footer p { text-align: center; color: rgb(29, 29, 29);}
+.footer p { text-align: center; color: rgb(29, 29, 29);}
 
-      .wrapper .icon {
+.wrapper .icon {
         position: relative;
         background-color: #ffffff;
         border-radius: 50%;
@@ -270,16 +275,75 @@ textarea {
 /* footer end*/
 
 
- @media only screen and (min-width: 600px) {
+
+/* comienzo de web*/
+
+ @media only screen and (min-width: 1025px) {
      .drop-down{display: none;}
      .nav-bar .mobile-menu{display: none;}
     .nav-bar .not-mobile{ display: initial;}
-    .nav-bar{
-        display: flex;flex-direction: row;justify-content: space-between;
-     }
-     
+.nav-bar{font-size:1em; height: 4em;
+position: fixed; width: 100%;
+
+}
+.nav-bar span{font-size: 0.7em;}
+
+header.nav-fixed {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+    background-color:#fff;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-bar button{font-size: 1.3em;
+    display: flex;
+border: none;background-color: inherit; margin-top:29px ;
+}
+
+
+.about-us{height: 25em;font-size: 1.3em;}
+.about-us h1{margin-top:-10em ; }
+.about-us h2{margin-top:3em ;}
+
+
+
+
+
+
+
+
+
+    .producto img{ width: 8em;}
     
-    .nav-bar div {display: flex; flex-direction: column;justify-content: center; }
-    .logo-name div{display: flex;flex-direction: row;}
-   .logo-name div p { display: flex; flex-direction: column;justify-content: center;}
+    .productos{display: grid;
+     grid-template-columns:repeat(2,1fr);grid-template-rows: repeat(2,1fr);
+     height: 25em;margin-top: 5em; width: 50em;margin: auto;
     }
+    
+    .producto{width: 10em;}
+       
+       
+    
+    .outerDiv{
+        display: flex;background-color:#E7F1F2 
+        ;width:13em ;height: 13em;margin: auto;margin-top: 100px;}
+    
+    .productos p {font-size: 16px;}
+    .productos h4{ font-size: 12px;}
+    
+
+    .contact{ margin-top: 25em;}
+
+
+    .container {
+        width: 50%;
+        margin: 5em auto;
+    }
+
+
+}
+
+    
