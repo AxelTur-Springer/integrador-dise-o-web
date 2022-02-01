@@ -25,19 +25,24 @@
             <div class="division2" id="division2">
                 <div class="container">
                     <form>
-          
+                        <p class="log-reg">Login</p>
                         <ul>
                             <li id="foo"  onclick="foo();">
-                                <label for="name"><span>Nombre<span class="required-star">*</span></span></label>
-                                <input type="text" id="name" name="user_name">
+                                <div  class="tester">
+                                <img src="/assets/id-card.png" alt="">
+                                <input type="text" id="name" name="user_name" placeholder="Nombre y Apellido">
+                            </div>
                             </li>
-                            <li>
-                                <label for="mail"><span>Correo<span class="required-star">*</span></span></label>
-                                <input type="email" id="mail" name="user_email">
+                            <li class="tester">
+                                <img src="/assets/arroba.png" alt="">
+                                <input type="email" id="mail" name="user_email" placeholder= "Correo"> 
+                              
+                              
                             </li>
-                            <li>
-                                <label for="pass"><span>Contraseña <span class="required-star">*</span></span></label>
-                                <input type="password" id="password" name="user_email">
+                            <li  class="tester">
+                                <img src="/assets/padlock.png" alt="">
+                                <input type="password" id="password" name="user_email" placeholder= "Contraseña">
+                                <button>Forgot ?</button>
                             </li>
                             <li>
                                 <button id="botonReg" type="button" onclick="toggle_visibility('foo')">No tenes una cuenta ? <span>  Registrate !</span></button>

@@ -31,6 +31,5 @@ btn.addEventListener("click", ()=>{
         btn.innerText= "No tenes una cuenta ? REGISTRATE !";
         ingrebtn.value = "Ingresar";
         if (mediaQuery.matches) { anime.style.height ="70%"}
-       
     }
 });
