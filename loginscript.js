@@ -18,14 +18,19 @@ function foo() {
     b=false;
 }
 const btn = document.getElementById("botonReg");
+let mediaQuery = window.matchMedia('(max-width: 900px)')
+const anime = document.getElementById("division2")
 const ingrebtn = document.getElementById("submitbtn")
 btn.addEventListener("click", ()=>{
 
     if(btn.innerText == "No tenes una cuenta ? REGISTRATE !"){
         btn.innerText = "Ya estas registrado ? Inicie sesion!";
-        ingrebtn.value = "Ingresar";
+        ingrebtn.value = "Registrate";
+        anime.style.height ="100%"
     }else{
         btn.innerText= "No tenes una cuenta ? REGISTRATE !";
-        ingrebtn.value = "Registrate";
+        ingrebtn.value = "Ingresar";
+        if (mediaQuery.matches) { anime.style.height ="70%"}
+       
     }
 });

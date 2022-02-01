@@ -59,13 +59,15 @@ span {
     text-transform: uppercase;
 }
 input[type="submit"] {
-    background: #2f1b4b;
+    background: #102a43;
     color: white;
     font-weight: 700;
     font-size: 1.2rem;
     border-radius: 5px;
     margin-top: 1.3em;
 }
+#submitbtn:hover{cursor: pointer;
+background-color: #0c1e30;}
 
 .container {
     height: 100%; 
@@ -107,9 +109,10 @@ textarea {
 }
 
 /* celular */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     body{
-        background-repeat: no-repeat;
+        background-image: url(/assets/backspace.png);
+        background-repeat:repeat;
         background-size: contain;background-position:top;
     background-color: black; }
     .cajita-login{
@@ -130,24 +133,10 @@ textarea {
     .p1{display: none;}
     .p2{display: none;}
     .phonetext{
-       color: white;
+       color:white;
        text-align: center;
     }
 
-    input,
-textarea {
-    width: 100%;
-    margin: auto;
-    border: 1px solid #e1e2eb;
-    background-color: rgb(255, 255, 255);
-    color: #102a43;
-    caret-color: #829ab1;
-    box-sizing: border-box;
-    font-size: 14px;
-    line-height: 2rem;
-    box-shadow: none;
 
-    
-}
 form{border-radius: 20px 20px 0px 0px;}
 }
