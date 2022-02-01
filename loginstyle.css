@@ -105,3 +105,37 @@ textarea {
     line-height: 2rem;
     
 }
+
+/* celular */
+@media only screen and (max-width: 600px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: contain;background-position:top;
+    background-color: black; }
+    .cajita-login{
+        margin: 0%;
+        display: flex;flex-direction: column;
+        width: 100%; 
+        height: 90vh;
+    }
+    .division1{
+        height: 20%;
+        background-size: cover;width: 100%;}
+    .division2{ 
+        height: 90%;
+        width: 100%;
+        border-radius: 1em;
+        
+       
+      
+
+    } 
+    .p1{display: none;}
+    .p2{display: none;}
+    .phonetext{
+       color: white;
+       text-align: center;
+    
+    }
+
+}
