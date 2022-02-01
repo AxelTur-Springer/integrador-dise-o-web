@@ -18,12 +18,14 @@ function foo() {
     b=false;
 }
 const btn = document.getElementById("botonReg");
-
+const ingrebtn = document.getElementById("submitbtn")
 btn.addEventListener("click", ()=>{
 
     if(btn.innerText == "No tenes una cuenta ? REGISTRATE !"){
         btn.innerText = "Ya estas registrado ? Inicie sesion!";
+        ingrebtn.value = "Ingresar";
     }else{
         btn.innerText= "No tenes una cuenta ? REGISTRATE !";
+        ingrebtn.value = "Registrate";
     }
 });
