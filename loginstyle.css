@@ -23,6 +23,10 @@ background-position: left;
 }
 .division1 p{ text-align: center;
 }
+.logReg{
+    font-size: 2.2em;font-weight: bolder;
+    color: rgb(1, 1, 51);text-align: center;
+}
 .division2{ 
     border-radius : 0px 10px 10px 0px;
     width: 50%;
@@ -69,6 +73,20 @@ input[type="submit"] {
 }
 #submitbtn:hover{cursor: pointer;
 background-color: #0c1e30;}
+
+
+.mediaLogTxt{
+   
+    display: flex;flex-direction: column;
+}
+.mediaLogTxt p {
+margin-top: 5%;margin-bottom: 5%;
+    font-size: 1em;text-align: center; }
+.logSocial{display: flex;justify-content: space-evenly;}
+.logSocial img{
+    width: 3em;
+}
+
 
 .container {
     height: 100%; 
@@ -162,7 +180,7 @@ input:focus {
 
         input,
         textarea {
-            font-size: 1.3rem;
+            font-size: 1rem;
             line-height: 3.5rem;
             color: rgb(0, 0, 0);
         }
@@ -180,7 +198,9 @@ form,ul{
 
 }
 
-#submitbtn{background-color: rgb(250, 189, 245);border: none;}
+#submitbtn{
+    width: 60%;padding: 5px;
+    background-color: rgb(250, 189, 245);border: none;}
 #submitbtn:hover{background-color: rgb(241, 117, 231);}
 }
 
