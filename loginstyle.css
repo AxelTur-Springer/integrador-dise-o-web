@@ -24,7 +24,7 @@ background-position: left;
 .division1 p{ text-align: center;
 }
 .logReg{
-    font-size: 2.2em;font-weight: bolder;
+    font-size: 2.2em;font-weight: bolder;margin-top: 5%;
     color: rgb(1, 1, 51);text-align: center;
 }
 .division2{ 
@@ -174,7 +174,7 @@ input:focus {
     }
     @keyframes prueba{
         from{height: 70%;}
-        to{ height: 100%;}
+        to{ height: 120%;}
         }
        
 
