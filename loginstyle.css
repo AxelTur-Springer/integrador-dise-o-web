@@ -42,6 +42,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+   
 }
 
 li {
@@ -88,6 +89,7 @@ form {
 input,
 textarea {
     width: 100%;
+    background: transparent;
     margin: auto;
     padding: 9px 20px;
     border: none;
@@ -98,10 +100,7 @@ textarea {
     box-sizing: border-box;
     font-size: 14px;
     font-size: 1rem;
-    line-height: 29px;
-    line-height: 2rem;
-    line-height: 29px;
-    line-height: 2rem;
+    line-height: 1.8rem;
     
 }
 input:focus {
@@ -119,14 +118,16 @@ input:focus {
     color: #102a43;
  }
 .tester img{ 
-    width: 1em;height: 1em;position: relative; left: 18px;top: 18px;}
+    width: 1em;height: 1em;position: relative; left: 18px;top: 14px;}
 /* celular */
 @media only screen and (max-width: 900px) {
     body{
-        background-image: url(/assets/backspace.png);
-        background-repeat:repeat;
-        background-size: contain;background-position:top;
-    background-color: black; }
+        background-image: url(/assets/space\ adventur.webp);
+        background-repeat:no-repeat;
+        background-size: 40em 30em;background-position:top;
+    background-color: rgb(255, 255, 255); 
+        
+}
     .cajita-login{
         margin: 0%;
         display: flex;flex-direction: column;
@@ -142,13 +143,44 @@ input:focus {
         width: 100%;
         border-radius: 1em;
     } 
+
+    .logReg{
+        font-size: 2.5em;font-weight: bolder;
+        color: rgb(1, 1, 51);
+    }
     .p1{display: none;}
     .p2{display: none;}
-    .phonetext{
-       color:white;
-       text-align: center;
+
+    .division2{
+        animation: prueba;
     }
+    @keyframes prueba{
+        from{height: 70%;}
+        to{ height: 150%;}
+        }
+       
 
-
+        input,
+        textarea {
+            font-size: 1.3rem;
+            line-height: 3.5rem;
+            color: rgb(0, 0, 0);
+        }
 form{border-radius: 20px 20px 0px 0px;}
+form,ul{ 
+    background-color:rgb(225, 240, 255);
+   
 }
+.tester img{ 
+    width: 1.5em;height: 1.5em;position: relative; left: 18px;top: 25px;}
+#nametag{display: none;}
+.botonReg{font-size: 1em; text-align: center;
+    margin-top: 1em;
+    width: 100%;
+
+}
+
+#submitbtn{background-color: rgb(250, 189, 245);border: none;}
+#submitbtn:hover{background-color: rgb(241, 117, 231);}
+}
+
