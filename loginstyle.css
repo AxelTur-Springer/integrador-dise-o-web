@@ -156,7 +156,7 @@ input:focus {
     }
     @keyframes prueba{
         from{height: 70%;}
-        to{ height: 150%;}
+        to{ height: 100%;}
         }
        
 
