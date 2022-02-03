@@ -1,4 +1,4 @@
-alert("Cuando ingrese pruebe la funcionalidad del ultimo boton que pregunta su tenes una cuenta graciaas")
+//alert("Cuando ingrese pruebe la funcionalidad del ultimo boton que pregunta su tenes una cuenta graciaas")
 
 function myFunction(){ 
 const nameAppear = document.getElementById("nametag")
@@ -10,7 +10,7 @@ if (nameAppear.style.display=="none"){
    nameAppear.style.display="flex";
     submitbtn.value="Registrate"
     botonReg.childNodes[0].textContent = "Tenes una cuenta? Inicia Sesion!"
-    slider.style.animation="prueba 0.2s 0s forwards"
+    slider.style.animation="0.1s prueba  forwards"
     logReg.childNodes[0].textContent ="Registrate"
     }
     else{
