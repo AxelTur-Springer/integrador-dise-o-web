@@ -10,7 +10,7 @@ if (nameAppear.style.display=="none"){
    nameAppear.style.display="flex";
     submitbtn.value="Registrate"
     botonReg.childNodes[0].textContent = "Tenes una cuenta? Inicia Sesion!"
-    slider.style.animation="0.1s prueba  forwards"
+    slider.style.animation="0.8s prueba  forwards"
     logReg.childNodes[0].textContent ="Registrate"
     }
     else{

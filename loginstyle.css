@@ -164,7 +164,7 @@ input:focus {
     } 
 
     .logReg{
-        font-size: 2.5em;font-weight: bolder;
+        font-size: 2.2em;font-weight: bolder;
         color: rgb(1, 1, 51);
     }
     .p1{display: none;}
@@ -184,13 +184,13 @@ input:focus {
             line-height: 3.5rem;
             color: rgb(0, 0, 0);
         }
-form{border-radius: 20px 20px 0px 0px;}
+form{border-radius: 40px 40px 0px 0px;}
 form,ul{ 
-    background-color:rgb(225, 240, 255);
+    background-color:rgb(237, 244, 250);
    
 }
 .tester img{ 
-    width: 1.5em;height: 1.5em;position: relative; left: 18px;top: 25px;}
+    width: 1.5em;height: 1.5em;position: relative; left: 18px;top: 22px;}
 
 .botonReg{font-size: 1em; text-align: center;
     margin-top: 1em;
