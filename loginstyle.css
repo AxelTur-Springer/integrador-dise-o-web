@@ -83,8 +83,11 @@ input[type="submit"] {
     border-radius: 5px;
     margin-top: 1.3em;
 }
+#submitbtn{background-color: rgb(255, 166, 248);
+border-bottom: none;}
+
 #submitbtn:hover{cursor: pointer;
-background-color: #0c1e30;}
+    background-color: rgb(255, 91, 241);}
 
 
 .mediaLogTxt{
@@ -124,7 +127,7 @@ textarea {
     padding: 9px 20px;
     border: none;
     border-bottom: 2px solid black;
-    background-color: rgba(255, 0, 0, 0);
+
     color: #102a43;
     caret-color: #829ab1;
     box-sizing: border-box;
@@ -145,10 +148,10 @@ input:focus {
 .tester input {flex-grow: 2;}
 .tester button{
     background-color: inherit;border: none;border-bottom: black 2px solid;
-    color: #102a43;
+    color: #92caff;
  }
 .tester img{ 
-    width: 1em;height: 1em;position: relative; left: 18px;top: 14px;}
+    width: 1em;height: 1em;position: relative; left: 18px;top: 10px;}
 /* celular */
 @media only screen and (max-width: 900px) {
     body{
