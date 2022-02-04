@@ -41,7 +41,7 @@ button:focus{outline: none; }
     background-color: rgb(255, 255, 255); 
 
 } 
-#botonReg{border: none;background-color: inherit; }
+#botonReg{border: none;background-color: inherit;text-align: center;width: 100%; }
 #botonReg:hover{cursor: pointer;}
 #nametag{display: none;}
 .p1{font-size: 2em; }
@@ -58,6 +58,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;   
+    
 }
 
 li {
