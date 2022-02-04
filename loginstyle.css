@@ -6,48 +6,58 @@
     
  }
 button:focus{outline: none; }
- body{background-image: url(/assets/458369fdb0bc737cf8bff4e4ecc65134.jpg);
-background-position: left;
+ body{
+     background-image: url(/assets/space\ adventur.webp);
+    background-size: cover;
   }
+
 #foo{display: none;}
+
 .cajita-login{
     display: flex;flex-direction: row; 
     width: 56em;height: 28em; margin: auto;margin-top: 5%;
-    ;border-radius: 10px;
+    border-radius: 10px;
 }
+
 .division1{
-    color: rgb(255, 255, 255);
-    width: 50%;
+    color: rgb(255, 255, 255); width: 50%;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 20px 0px 0px 20px;
     display: flex;flex-direction: column;
     justify-content: center;justify-content: space-evenly;
 }
+
 .division1 p{ text-align: center;
 }
+
 .logReg{
     font-size: 2.2em;font-weight: bolder;margin-top: 5%;
     color: rgb(1, 1, 51);text-align: center;
 }
+
 .division2{ 
     border-radius : 0px 10px 10px 0px;
     width: 50%;
     background-color: rgb(255, 255, 255); 
+
 } 
 #botonReg{border: none;background-color: inherit; }
 #botonReg:hover{cursor: pointer;}
 #nametag{display: none;}
 .p1{font-size: 2em; }
 .p2{font-size: 1em;}
+
 label,
 input,
 textarea {
     display: block;
     width: 100%;
 }
+
 ul {
     list-style: none;
     margin: 0;
-    padding: 0;
-   
+    padding: 0;   
 }
 
 li {
@@ -156,7 +166,9 @@ input:focus {
     }
     .division1{
         height: 50%;
-        background-size: cover;width: 100%;}
+        background-size: cover;width: 100%;
+        background-color: rgba(0, 0, 0, 0);
+    }
     .division2{ 
         height: 70%;
         width: 100%;
@@ -165,7 +177,7 @@ input:focus {
 
     .logReg{
         font-size: 2.2em;font-weight: bolder;
-        color: rgb(1, 1, 51);
+        color: rgb(0, 0, 0);
     }
     .p1{display: none;}
     .p2{display: none;}
@@ -190,16 +202,16 @@ form,ul{
    
 }
 .tester img{ 
-    width: 1.2em;height: 1.2em;position: relative; left: 18px;top: 25px;}
+    width: 1.2em;height: 1.2em;position: relative; left: 18px;top: 27px;}
 
 .botonReg{font-size: 1em; text-align: center;
-    margin-top: 1em;
+    margin-top: 1em;margin-bottom: 1.5em;
     width: 100%;
 
 }
 
 #submitbtn{
-    width: 60%;padding: 5px;
+    width: 60%;padding: 1px;
     background-color: rgb(250, 189, 245);border: none;}
 #submitbtn:hover{background-color: rgb(241, 117, 231);}
 }

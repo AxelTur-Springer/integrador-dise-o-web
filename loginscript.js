@@ -1,4 +1,3 @@
-//alert("Cuando ingrese pruebe la funcionalidad del ultimo boton que pregunta su tenes una cuenta graciaas")
 
 function myFunction(){ 
 const nameAppear = document.getElementById("nametag")
@@ -24,3 +23,4 @@ if (nameAppear.style.display=="none"){
 
 
 }  
+alert("Cuando ingrese pruebe la funcionalidad del ultimo boton que pregunta su tenes una cuenta graciaas")
